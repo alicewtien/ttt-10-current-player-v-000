@@ -4,7 +4,7 @@ def turn_count(board)
       if (index == "X" || index == "O")
       turn += 1
     end
-  end
+  end #Have to terminate the loop before you can get the final** return value of "turn"!!
     return turn
 end
 
